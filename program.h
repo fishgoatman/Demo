@@ -1,5 +1,5 @@
-#ifndef _PROGRAM_H
-#define _PROGRAM_H
+#ifndef PROGRAM_H
+#define PROGRAM_H
 
 int f0();
 int f1();
