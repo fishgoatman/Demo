@@ -1,3 +1,9 @@
+#include <stdio.h>
+
+int() main {
+  printf("Program running");
+}
+
 int f0() {
   return 0;
 }
