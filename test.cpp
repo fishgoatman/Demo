@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 int main() {
-  printf("Test running\n");
+  printf("Test running \n");
   assert (f0() == 0);
   assert (f1() == 1);
   assert (f2() == 2);
