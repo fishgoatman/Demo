@@ -1,5 +1,5 @@
 int f0() {
-  return 1;
+  return 0;
 }
 
 int f1() {
