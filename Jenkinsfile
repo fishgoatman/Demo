@@ -8,7 +8,7 @@ pipeline {
 cd /memverge/home/patrick/Jenkins/Demo
 make
 ./output
-cd pwd'''
+cd $pwd'''
       }
     }
   }
