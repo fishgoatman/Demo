@@ -3,14 +3,14 @@ pipeline {
   stages {
     stage('Test') {
       steps {
-        make
-	
+        cd /memverge/home/patrick/Jenkins/Demo
+	make
+	./output
       }
     }
-    stage('Deploy') {
-      steps {
-        echo 'Deploying....'
-      }
+
+    stage('Stage 2') {
+      echo hello yello
     }
   }
 }

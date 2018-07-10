@@ -1,6 +1,10 @@
 pipeline {
   agent any
   stages {
+    stage('Build') {
+      echo build
+    }
+
     stage('Test') {
       steps {
         cd /memverge/home/patrick/Jenkins/Demo
@@ -9,7 +13,7 @@ pipeline {
       }
     }
 
-    stage('Stage 2') {
+    stage('Deploy') {
       echo hello yello
     }
   }
