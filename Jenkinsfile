@@ -1,20 +1,16 @@
 pipeline {
   agent any
   stages {
-    stage('Build') {
-      steps {
-        echo 'Building..'
-      }
-    }
     stage('Test') {
       steps {
-        echo 'Testing..'
+        cd /memverge/home/patrick/Jenkins/Demo
+	make
+	./output
       }
     }
-    stage('Deploy') {
-      steps {
-        echo 'Deploying....'
-      }
+
+    stage('Stage 2') {
+      echo hello yello
     }
   }
 }
