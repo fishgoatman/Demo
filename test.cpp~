@@ -3,9 +3,13 @@
 #include <stdio.h>
 
 int main() {
-  printf("Test running ");
+<<<<<<< HEAD
+  printf("Test running\n");
+=======
+  printf("Test running \n");
+>>>>>>> 7ee90abccab52b37a71e5e9ab2ab2b2d1fcb1fb6
   assert (f0() == 0);
   assert (f1() == 1);
   assert (f2() == 2);
-  printf("Test successful");
+  printf("Test successful\n");
 }
