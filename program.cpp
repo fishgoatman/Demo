@@ -7,5 +7,5 @@ int f1() {
 }
 
 int f2() {
-  return 3;
+  return 2;
 }
