@@ -3,7 +3,7 @@ int f0() {
 }
 
 int f1() {
-  return 4;
+  return 1;
 }
 
 int f2() {
