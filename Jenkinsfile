@@ -1,19 +1,14 @@
 pipeline {
   agent any
   stages {
-    stage('Build') {
-      steps {
-        echo 'Building..'
-      }
-    }
     stage('Test') {
       steps {
         echo 'Testing..'
-      }
-    }
-    stage('Deploy') {
-      steps {
-        echo 'Deploying....'
+        sh '''pwd=`pwd`
+cd /memverge/home/patrick/Jenkins/Demo
+make
+./output
+cd $pwd'''
       }
     }
   }
