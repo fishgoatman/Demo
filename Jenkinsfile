@@ -7,6 +7,7 @@ pipeline {
 		sh '''
 		pwd
 		ls
+		sleep 60
 		make
 		./output
 		'''
