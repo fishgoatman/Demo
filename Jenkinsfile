@@ -7,7 +7,7 @@ pipeline {
 
     stages {
 	stage('Test') {
-	    step {
+	    steps {
 		sh '''
 		pwd
 		ls
