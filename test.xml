@@ -1,14 +1,14 @@
 <?xml version="1.0" ?>
 <!DOCTYPE coverage
   SYSTEM 'http://cobertura.sourceforge.net/xml/coverage-04.dtd'>
-<coverage branch-rate="0.875" branches-covered="7" branches-valid="8" complexity="0.0" line-rate="0.888888888889" lines-covered="8" lines-valid="9" timestamp="1533246479" version="gcovr 4.1">
+<coverage branch-rate="0.875" branches-covered="7" branches-valid="8" complexity="0.0" line-rate="0.727272727273" lines-covered="8" lines-valid="11" timestamp="1533247186" version="gcovr 4.1">
 <sources>
 <source>.</source>
 </sources>
 <packages>
-<package branch-rate="0.875" complexity="0.0" line-rate="0.888888888889" name="">
+<package branch-rate="0.875" complexity="0.0" line-rate="0.727272727273" name="">
 <classes>
-<class branch-rate="0.875" complexity="0.0" filename="program.cpp" line-rate="0.888888888889" name="program_cpp">
+<class branch-rate="0.875" complexity="0.0" filename="program.cpp" line-rate="0.727272727273" name="program_cpp">
 <methods/>
 <lines>
 <line branch="false" hits="1" number="3"/>
@@ -35,7 +35,9 @@
 </conditions>
 </line>
 <line branch="false" hits="0" number="14"/>
-<line branch="false" hits="1" number="17"/>
+<line branch="false" hits="0" number="15"/>
+<line branch="false" hits="0" number="16"/>
+<line branch="false" hits="1" number="19"/>
 </lines>
 </class>
 </classes>
