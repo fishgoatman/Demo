@@ -1,16 +1,12 @@
+#!/bin/bash
 pipeline {
     agent any
 
     stages {
-	stage('Test') {
+	stage ("xml test") {
 	    steps {
-		sh '''
-		pwd
-		ls
-		sleep 60
-		make
-		./output
-		'''
+		junit '**/test.xml'
+		step([$class: 'CoberturaPublisher', autoUpdateHealth: false, autoUpdateStability: false, coberturaReportFile: '**/test.xml', failUnhealthy: false, failUnstable: false, maxNumberOfBuilds: 0, onlyStable: false, sourceEncoding: 'ASCII', zoomCoverageChart: false])
 	    }
 	}
     }
